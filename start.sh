@@ -1,3 +1,3 @@
 #!/bin/bash
-echo FLOWER_BROKER_URL=${FLOWER_BROKER_URL}
-flower --broker=${FLOWER_BROKER_URL} --port=5555
+echo FLOWER_BROKER_URL=${FLOWER_BROKER}
+flower --broker=${FLOWER_BROKER} --port=5555
